@@ -33,3 +33,31 @@ pip install -r requirements.txt
 ```bash
 git clone https://github.com/bensouiciakram/hardware-store-scraper.git
 ```
+2. Install the project's dependencies as mentioned in the prerequisites section.
+
+## Usage 
+To start scraping the AFDB Hardware Store website, run the following command from the project's root directory:
+```bash
+scrapy crawl products
+```
+This will initiate the scraper, and it will start collecting data from the website. The scraped data will be stored in a CSV file named afdb.csv.
+
+## Fields Scraped
+
+The following fields are collected for each product:
+
+* URL
+* Title
+* Brand
+* Image URLs
+* Description
+* Category
+* SKU
+* Details
+* Variation
+* Finish
+* Stock 
+
+
+
+
